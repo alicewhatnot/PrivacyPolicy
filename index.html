@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#f7f5f1;
+    --ink:#1e2a2f;
+    --ink-soft:#4a565b;
+    --rule:#d8d2c4;
+    --accent:#2f5d5a;
+    --accent-soft:#e4ece9;
+    --mono:#7a746a;
+    --max:760px;
+  }
+
+  *{box-sizing:border-box;}
+
+  html{scroll-behavior:smooth;}
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', -apple-system, sans-serif;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{color:var(--accent);}
+  a:focus-visible, button:focus-visible{outline:2px solid var(--accent); outline-offset:3px;}
+
+  .masthead{
+    border-bottom:1px solid var(--rule);
+    padding:2.5rem 1.5rem 2rem;
+  }
+  .masthead-inner{
+    max-width:var(--max);
+    margin:0 auto;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin:0 0 0.9rem;
+  }
+  h1{
+    font-family:'Source Serif 4', Georgia, serif;
+    font-weight:700;
+    font-size:clamp(2rem, 5vw, 2.75rem);
+    line-height:1.1;
+    margin:0 0 0.75rem;
+    letter-spacing:-0.01em;
+  }
+  .updated{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.82rem;
+    color:var(--mono);
+  }
+
+  main{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:2.5rem 1.5rem 5rem;
+  }
+
+  .lede{
+    font-size:1.08rem;
+    color:var(--ink-soft);
+    border-left:3px solid var(--accent);
+    padding-left:1.1rem;
+    margin:0 0 3rem;
+  }
+  .lede .fill{
+    background:var(--accent-soft);
+    padding:0.05em 0.35em;
+    border-radius:3px;
+    color:var(--accent);
+    font-weight:500;
+  }
+
+  section{
+    margin-bottom:2.6rem;
+    scroll-margin-top:1.5rem;
+  }
+
+  .section-num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.78rem;
+    color:var(--mono);
+    display:block;
+    margin-bottom:0.35rem;
+  }
+
+  h2{
+    font-family:'Source Serif 4', Georgia, serif;
+    font-weight:600;
+    font-size:1.35rem;
+    margin:0 0 0.75rem;
+    color:var(--ink);
+  }
+
+  p{margin:0 0 0.9rem; color:var(--ink-soft);}
+  p:last-child{margin-bottom:0;}
+
+  strong{color:var(--ink); font-weight:600;}
+
+  .fill{
+    background:var(--accent-soft);
+    padding:0.05em 0.4em;
+    border-radius:3px;
+    color:var(--accent);
+    font-weight:500;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.92em;
+    white-space:nowrap;
+  }
+
+  hr{
+    border:none;
+    border-top:1px solid var(--rule);
+    margin:2.8rem 0;
+  }
+
+  nav.toc{
+    background:var(--accent-soft);
+    border:1px solid var(--rule);
+    border-radius:8px;
+    padding:1.25rem 1.5rem;
+    margin-bottom:3rem;
+  }
+  nav.toc p{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin:0 0 0.75rem;
+  }
+  nav.toc ol{
+    columns:2;
+    -webkit-columns:2;
+    margin:0;
+    padding-left:1.1rem;
+    font-size:0.92rem;
+  }
+  nav.toc li{margin-bottom:0.4rem;}
+  nav.toc a{text-decoration:none; color:var(--ink-soft);}
+  nav.toc a:hover{color:var(--accent); text-decoration:underline;}
+
+  footer{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:0 1.5rem 4rem;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.78rem;
+    color:var(--mono);
+    border-top:1px solid var(--rule);
+    padding-top:1.5rem;
+  }
+
+  @media (max-width: 520px){
+    nav.toc ol{columns:1;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <p class="eyebrow">Legal · Privacy</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 19 August 2026</p>
+  </div>
+</header>
+
+<main>
+  <p class="lede">
+    This Privacy Policy explains how applications developed by
+    <span class="fill">Michael Gillbanks</span> handle user information.
+  </p>
+
+  <nav class="toc" aria-label="Table of contents">
+    <p>On this page</p>
+    <ol>
+      <li><a href="#information-we-collect">Information We Collect</a></li>
+      <li><a href="#icloud">iCloud and Cloud Services</a></li>
+      <li><a href="#analytics">Analytics and Tracking</a></li>
+      <li><a href="#advertising">Advertising</a></li>
+      <li><a href="#third-party">Third-Party Services</a></li>
+      <li><a href="#security">Data Security</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#choices">Your Choices</a></li>
+      <li><a href="#changes">Changes to This Policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#app-specific">Application-Specific Information</a></li>
+    </ol>
+  </nav>
+
+  <section id="information-we-collect">
+    <span class="section-num">01</span>
+    <h2>Information We Collect</h2>
+    <p>The information collected by an application depends on its features and how you use it.</p>
+    <p>Some applications may store information that you create within the app, such as documents, notes, settings, or other user-generated content. Where applicable, this information may be stored locally on your device or using services provided by Apple, such as iCloud and CloudKit.</p>
+    <p>Unless explicitly stated otherwise for a particular application, we do not operate servers or databases that store the content you create within our applications, and we do not have access to content stored privately on your device or in your personal iCloud account.</p>
+  </section>
+
+  <section id="icloud">
+    <span class="section-num">02</span>
+    <h2>iCloud and Cloud Services</h2>
+    <p>Some applications may use Apple's iCloud or CloudKit services to store and synchronise data between your devices.</p>
+    <p>Where an application uses these services, the information stored through them is handled by Apple in accordance with Apple's terms and privacy policies.</p>
+    <p>We do not have access to information stored in a user's private iCloud container.</p>
+    <p>Not all applications use iCloud or other cloud services.</p>
+  </section>
+
+  <section id="analytics">
+    <span class="section-num">03</span>
+    <h2>Analytics and Tracking</h2>
+    <p>Applications may use analytics or other third-party services where necessary to provide or improve their functionality.</p>
+    <p>Where an application uses such services, the relevant information may be described in the application's App Store listing or within the application itself.</p>
+    <p>We do not sell personal information to third parties.</p>
+  </section>
+
+  <section id="advertising">
+    <span class="section-num">04</span>
+    <h2>Advertising</h2>
+    <p>Some applications may contain advertising. Where applicable, advertising providers may collect or receive information in accordance with their own privacy policies.</p>
+    <p>Applications that do not contain advertising do not share information with advertising providers for advertising purposes.</p>
+  </section>
+
+  <section id="third-party">
+    <span class="section-num">05</span>
+    <h2>Third-Party Services</h2>
+    <p>Applications may use third-party services to provide specific features or functionality.</p>
+    <p>The information shared with these services depends on the particular application and the services it uses. Third-party services process information according to their own privacy policies and terms.</p>
+  </section>
+
+  <section id="security">
+    <span class="section-num">06</span>
+    <h2>Data Security</h2>
+    <p>We take reasonable steps to protect information handled by our applications. However, no method of electronic storage or transmission can be guaranteed to be completely secure.</p>
+  </section>
+
+  <section id="children">
+    <span class="section-num">07</span>
+    <h2>Children's Privacy</h2>
+    <p>Our applications are not intended to knowingly collect personal information from children unless explicitly stated otherwise for a particular application.</p>
+  </section>
+
+  <section id="choices">
+    <span class="section-num">08</span>
+    <h2>Your Choices</h2>
+    <p>You can control permissions granted to applications through your device's settings. Depending on the application and the services it uses, you may also be able to delete information directly within the application or through your Apple account or device settings.</p>
+  </section>
+
+  <section id="changes">
+    <span class="section-num">09</span>
+    <h2>Changes to This Privacy Policy</h2>
+    <p>This Privacy Policy may be updated from time to time. Any changes will be reflected on this page along with an updated "Last updated" date.</p>
+  </section>
+
+  <section id="contact">
+    <span class="section-num">10</span>
+    <h2>Contact</h2>
+    <p>If you have any questions about this Privacy Policy or the handling of information by one of our applications, you can contact us at:</p>
+    <p><span class="fill">mikegillbanks10@gmail.com</span></p>
+  </section>
+
+  <hr>
+
+  <section id="app-specific">
+    <span class="section-num">11</span>
+    <h2>Application-Specific Information</h2>
+    <p>Some applications may have additional privacy practices or use services that are not described in detail above. Where this is the case, additional information may be provided within the relevant application or its App Store listing.</p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 <span class="fill">Michael Gillbanks</span>. This page is served via GitHub Pages.</p>
+</footer>
+
+</body>
+</html>
